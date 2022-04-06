@@ -5,3 +5,4 @@ AnomalyDetection/data/hh101.sensor_map.png
 AnomalyDetection/data/hh106.sensor_map.png
 AnomalyDetection/data/hh101.rawdata.txt
 *.pyc
+AnomalyDetection/model/anomaly_detector.joblib
