@@ -1,1 +1,5 @@
 AnomalyDetection\data\*
+AnomalyDetection/log.csv
+AnomalyDetection/data/hh106.rawdata.txt
+AnomalyDetection/data/hh101.sensor_map.png
+AnomalyDetection/data/hh106.sensor_map.png

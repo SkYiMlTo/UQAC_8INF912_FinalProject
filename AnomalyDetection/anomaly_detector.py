@@ -22,4 +22,4 @@ class AnomalyDetector:
 
     def update_model(self, X):
         self.fit(X)
-        self.save_model(self.path)
+        self.save_model()

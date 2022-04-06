@@ -30,7 +30,7 @@ test["Date"] = pd.to_datetime(test["Date"])
 for i in range(len(test)):
     print(test.iloc[i])
     conn.send(test.iloc[i])
-    sl =  (test.iloc[i+1].Date - test.iloc[i].Date).total_seconds()/100
+    sl =  (test.iloc[i+1].Date - test.iloc[i].Date).total_seconds()/10000
     print(sl)
     time.sleep(sl)
     
