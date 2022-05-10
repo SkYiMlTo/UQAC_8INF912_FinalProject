@@ -10,7 +10,7 @@ address = ('localhost', 6000)
 def wait_for_client(address):
     listener = Listener(address,authkey=b'pepper')
     conn = listener.accept()
-    print("Connection accepted from " + str(listener.last_accepted))
+    print(f"Connection accepted from {str(listener.last_accepted)}")
     return conn
 buffer =[]
 fenbuffer =[]
